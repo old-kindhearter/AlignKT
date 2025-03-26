@@ -14,7 +14,7 @@ from model.AlignKT import AlignKT
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     # model info
-    parser.add_argument("--dataset_name", type=str, default="assist2009")
+    parser.add_argument("--dataset_name", type=str, default="algebra2005")
     parser.add_argument("--emb_type", type=str, default="qid")
     parser.add_argument("--save_dir", type=str, default="./saved_model")
     parser.add_argument("--seed", type=int, default=42)
